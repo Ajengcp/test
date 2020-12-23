@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kampus Indonesia</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <!-- Navigation Bar -->
+        <header>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+            <img src="images/logo.jpg" alt="logo" class="logo-utama">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Fitur
+                </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Info Kampus/Prodi</a>
+                    <a class="dropdown-item" href="#">Info Seminar/Workshop</a>
+                    <a class="dropdown-item" href="#">Info Beasiswa</a>
+                    <a class="dropdown-item" href="#">Info Lomba</a>
+                    <a class="dropdown-item" href="#">Info Lowongan</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">UTBK / Try Out</a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hubungi Kami</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+              
+              <div class="navbar-nav action-buttons ml-auto show">
+                <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle mr-3" aria-expanded="true">Masuk</a>
+                <div class="dropdown-menu">
+                  <form class="px-4 py-3">
+                    <div class="form-group">
+                      <label for="exampleDropdownFormEmail1">Alamat Email</label>
+                      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleDropdownFormPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                      <label class="form-check-label" for="dropdownCheck">
+                        Ingat Saya
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </form>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Belum punya akun? Sign up</a>
+                  <a class="dropdown-item" href="#">Lupa password?</a>
+                </div>
+                <a href="#" class="btn btn-primary regist-button">Daftar</a>
+              </div>
+              
+            </div>
+          </nav>
+        </header>
+
+          
+        <img src="images/bubble-changed.png" alt="" class="bubble-img">
+          <!-- Beranda -->
+        <main>
+          <img src="images/university-student2-blue.png" alt="" class="univstud-img">
+          <section class="container-fluid">
+
+            <div class="col-lg-12 heading-beranda">
+              <h1 class="big-heading">Bingung cari informasi seputar kuliah?</h1>
+              <h2>Cari disini aja!</h2>
+              <p>Dapatkan informasi seputar dunia perkuliahan secara terupdate dari kami melalui aplikasi Kampus Indonesia. </p>
+            <div>
+                    <input class="search-input" type="search" placeholder="Informasi Seputar Perkuliahan / Cari Kampus" aria-label="Search" >
+            </div>
+            </div>
+            <hr class="my-1 col-lg-4">
+          </section>
+
+
+          <!-- Fitur -->
+          <section id="features">
+
+            <h1>Fitur</h1>
+
+            <div class="features-layout card ">
+              <div class="feature-box card-body col-sm-4">
+                <h4 class="feature-desc">Rekomendasi Kampus Terbaik</h4>
+                <p class="feature-desc">Temukan kampus-kampus terbaik yang ada di Indonesia.</p>
+                <img class="feature-img" src="images/campus.png" alt="">
+              </div>
+    
+              <div class="feature-box card-body col-sm-4">
+                <h4 class="feature-title">Seminar/Workshop</h4>
+                <p class="feature-desc">Temukan info-info seminar/workshop pendidikan.</p>
+                <img class="feature-img" src="images/workshop.png" alt="">
+                </div>
+    
+              <div class="feature-box card-body col-sm-4">
+                <h4 class="feature-title">Beasiswa</h4>
+                <p class="feature-desc">Temukan info-info beasiswa luar maupun dalam negeri.</p>
+                <img class="feature-img" src="images/scholarship.png" alt="">
+                </div>
+            </div>
+          
+            <div class="features-layout card ">
+              <div class="feature-box card-body col-sm-4">
+                  <h4 class="feature-title">Lomba</h4>
+                  <p class="feature-desc">Temukan info-info lomba atau event yang sedang berlangsung.</p>
+                  <img class="feature-img" src="images/competition.png" alt="">
+              </div>
+    
+              <div class="feature-box card-body col-sm-4">
+                  <h4 class="feature-title">Lowongan</h4>
+                  <p class="feature-desc">Temukan info-info lowongan pekerjaan yang ada di Indonesia.</p>
+                  <img class="feature-img" src="images/profile.png" alt="">
+              </div>
+              
+              <div class="feature-box card-body col-sm-4">
+                  <h4 class="feature-title">UTBK</h4>
+                  <p class="feature-desc">Temukan informasi seputar UTBK dan try out.</p>
+                  <img class="feature-img" src="images/test.png" alt="">
+              </div>
+            </div>
+        
+
+            </div>
+
+        <img src="images/university-student-blue.png" alt="" class="people-img">
+
+          </section>
+
+        <!-- Artikel Terbaru -->
+
+
+        <section id="article">
+
+          <h1>Artikel Terbaru Kampus</h1>
+
+          <div class="row">
+            <div class="article-box col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/a1.jpg" alt="" class="article-img">
+                  <h5 class="card-title article-title">Hikmah Di Balik Proses Pengerjaan Skripsi</h5>
+                  <p class="card-text">17 Desember 2020</p>
+                  <a href="#" class="btn btn-primary btn-article">Baca</a>
+                </div>
+              </div>
+            </div>
+            <div class="article-box col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/a2.jpg" alt="" class="article-img">
+                  <h5 class="card-title article-title">Tips Mudah untuk Menentukan Judul Skripsi</h5>
+                  <p class="card-text">16 Desember 2020</p>
+                  <a href="#" class="btn btn-primary btn-article">Baca</a>
+                </div>
+              </div>
+            </div>
+            <div class="article-box col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/a3.jpg" alt="" class="article-img">
+                  <h5 class="card-title article-title">IPK Tinggi atau Aktif Organisasi</h5>
+                  <p class="card-text">IPK Tinggi atau Aktif Organisasi</p>
+                  <a href="#" class="btn btn-primary btn-article">Baca</a>
+                </div>
+              </div>
+            </div>
+            <div class="article-box col-sm-2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Artikel Lainnya..</h5>
+                  <a href="#" class="btn btn-primary btn-article">Baca</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <hr class="my-1 col-lg-4">
+
+      <!-- Quotes Box -->
+
+      <section id="quotes">
+
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <h2 class="quotes-text">Kalau mau menunggu sampai siap, kita akan menghabiskan sisa hidup kita hanya untuk menunggu." </h2>
+              <em>-Lemony Snicket</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="quotes-text">"Kalau impianmu tak bisa membuatmu takut, mungkin karena impianmu tak cukup besar." </h2>
+              <em>-Muhammad Ali</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="quotes-text">"Biarkan dirimu jadi pemula. Tidak ada seorang pun di dunia ini yang langsung menjadi ahli.  " </h2>
+              <em>-Wendy Flynn</em>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </section>
+      <hr class="my-1 col-lg-4">
+      
+
+      <!-- Partnership -->
+
+      <section id="partnership">
+
+        <h2>Bekerja Sama Dengan</h2>
+
+        <div class="partnership-box">
+            <img class="univ-logo col-sm-3" src="images/telkom.png" alt="Telkom University">
+            <img class="univ-logo col-sm-3" src="images/ugm.png" alt="Universitas Gadjah Mada">
+            <img class="univ-logo col-sm-3" src="images/ui.png" alt="Universitas Indonesia">
+            <img class="univ-logo col-sm-3" src="images/itb.png" alt="Institut Teknologi Bandung">
+            <img class="univ-logo col-sm-3" src="images/ipb.png" alt="Institut Pertanian Bogor">
+        </div>
+        
+      </section>
+
+    </main>
+
+    <footer>
+      <div id="footer">
+        <div class="container footer-kiri">
+          <div class="row text-left">
+            <div class="col-md-4 col-sm-6">
+              <div class="footer-layout">
+                <h1>Kampus Indonesia</h1>
+                <p>Kami merupakan perusahaan di bidang informasi seputar dunia perkuliahan yang bisa memberikan informasi secara terupdate dan dapat dipercaya sepenuhnya.</p>
+                
+                <b>PT. Inspirasi Mandiri Nusantara</b>
+                <p>Kec.Lowokwaru, Kota Malang, Jawa Timur</p>
+           
+                <h6>Telepon</h6>
+                <p>021 3452 2885</p>
+          
+                <h6>Email</h6>
+                <p>info@kampusindonesia.id</p>
+                
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="footer-layout">
+                  <h3>Perusahaan</h3>
+                  <a href="" class="menu1">Tentang Kami</a>
+                  <a href="" class="menu1">Hubungi Kami</a>
+                  <a href="" class="menu1">Karir</a>
+                  <a href="" class="menu1">Feedback</a>
+                  <a href="" class="menu1">Partner</a>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-layout">
+                <h3>Fitur</h3>
+                  <a href="" class="menu2">Cari Kampus/Prodi</a>
+                  <a href="" class="menu2">Cari Seminar/Workshop</a>
+                  <a href="" class="menu2">Cari Beasiswa</a>
+                  <a href="" class="menu2">Cari Lomba</a>
+                  <a href="" class="menu2">Cari Lowongan</a>
+                  <a href="" class="menu2">UTBK</a>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-sm-6">
+              <div class="footer-layout">
+                <h3>Lainnya</h3>
+                <a href="" class="menu3">Bantuan</a>
+                <a href="" class="menu3">Blog</a>
+          
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="container footer-kanan">
+          <div class="row">
+              <div class="col-md-12">
+                <div class="text-center">
+                  <p>© 2020 - Kampus Indonesia</p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+</body>
+
+    </body>
+</html>
